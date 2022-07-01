@@ -4,7 +4,7 @@ import os, sys, argparse, subprocess, signal
 # https://github.com/dpgaspar/Flask-AppBuilder/issues/733#issuecomment-379009480
 PORT = int(os.environ.get("PORT", 3000))
 
-# Project defaults
+# Project default
 FLASK_APP = 'server/__init__.py'
 DEFAULT_IP = '0.0.0.0:' + str(PORT)
 
